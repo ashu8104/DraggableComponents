@@ -6,16 +6,16 @@ export default class DragNDrop extends React.Component {
     this.state = {
       todos: [
         {
-          taskID: 1,
-          task: 'Walk the walk'
+          taskID:'',
+          task: ''
         },
         {
-          taskID: 2,
-          task: 'Talk the talk'
+          taskID: '',
+          task: ''
         },
         {
-          taskID: 3,
-          task: 'Jump the jump'
+          taskID: '',
+          task: ''
         }
       ],
       completedTasks: [],
